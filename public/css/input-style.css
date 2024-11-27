@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f4f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: #d5e1d5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.icon-label {
+    display: block;
+    position: relative;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 8px;
+    /* Adjust this value to position the icon above the input field */
+    left: 15px;
+    /* Align the icon to the left side */
+    background-color: #d5e1d5;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 10px 10px 105px;
+    border: 1px solid #e0e8e0;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #e0e8e0;
+    padding-left: 60px;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: #999;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.profile-photo {
+    width: 150px;
+    /* Adjust the size as needed */
+    height: 150px;
+    /* Adjust the size as needed */
+    border-radius: 100%;
+    /* Make it circular */
+    margin-bottom: 10px;
+    /* Space between the image and file input */
+}

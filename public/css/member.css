@@ -1,0 +1,25 @@
+body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar-custom {
+  display: flex;
+  flex-direction: column;
+}
+.navbar-custom img {
+  margin-right: 20px;
+}
+.search-bar {
+  width: 80%;
+}
+.input-group {
+  width: 100%;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+.recipe-card {
+  margin-bottom: 20px;
+}
